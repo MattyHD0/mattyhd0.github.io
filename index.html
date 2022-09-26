@@ -33,9 +33,16 @@
     <script>
         //window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=MattyHD0";
     </script>
-    <video width="100%" height="auto" autoplay>
+    <video width="100%" height="auto" autoplay id="roll">
       <source src="Rick Astley - Never Gonna Give You Up.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <script>
+        let video = document.getElementById("video");
+        video.addEventListener("loadstart", showVideo, false);
+        function showVideo(e){
+            video.play();
+        }
+    </script>
 </body>
 </html>
