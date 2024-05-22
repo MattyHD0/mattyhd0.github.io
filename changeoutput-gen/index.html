@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangeOutput Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a>If</a>
+        <input type="text" id="input1" placeholder="{luckperms_rank}">
+        <select id="condition">
+            <option value="contain">contains</option>
+            <option value="equals" selected>equals</option>
+            <option value="ignorecolor">equals ignore colors</option>
+            <option value="ignorecase">equals ignore case</option>
+            <option value=">=">highter or equals than</option>
+            <option value=">">highter than</option>
+            <option value="<=">lower or equals than</option>
+            <option value="<">lower than</option>
+        </select>
+        <input type="text" id="input2" placeholder="default">
+        <a>Then</a>
+        <input type="text" id="ontrue" placeholder="&cBuy a rank!">
+        <a>Else</a>
+        <input type="text" id="onfalse" placeholder="{luckperms_prefix}">
+        <input type="button" id="generate" onclick="createPlaceholder()" value="Generate">
+        <textarea id="generated-placeholder" cols="10" type="text" placeholder="Generated Placeholder!"></textarea>
+    </div>
+</body>
+</html>

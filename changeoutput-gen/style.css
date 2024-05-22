@@ -1,0 +1,73 @@
+* {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+select {
+    font-family: monospace, monospace;
+    color: #fff;
+}
+
+::placeholder  {
+    color: #7b7e88;
+}
+
+input, select, textarea {
+    padding: 6px;
+    padding-left: 10px;
+    background-color: #383a40;
+    color: #b6bbcb;
+    border-style: none;
+    border-radius: 100px;
+}
+
+textarea {
+    border-radius: 10px;
+    resize:vertical;
+    overflow: hidden;
+    height: auto;
+}
+
+input#generate{
+    background-color: #5865f2;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: 200ms;
+}
+
+input#generate:hover{
+    background-color: #2cb969;
+    color: #196c3d;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px;
+    background-color: #1e1f22;
+    color: #fff;
+}
+
+.container{
+    border-radius: 3%;
+    padding: 1%;
+
+    row-gap: 6px;
+    display: flex;
+
+    background-color: #2b2d31;
+    position: absolute;
+    top: 35%;
+    margin-top: -50px;
+
+    justify-content: center;
+    flex-direction: column;
+}
