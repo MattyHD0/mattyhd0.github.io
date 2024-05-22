@@ -31,7 +31,7 @@ textarea {
     border-radius: 10px;
     resize:vertical;
     overflow: hidden;
-    height: auto;
+    height: 180px;
 }
 
 input#generate{
@@ -65,7 +65,7 @@ body{
 
     background-color: #2b2d31;
     position: absolute;
-    top: 35%;
+    top: 25%;
     margin-top: -50px;
 
     justify-content: center;
