@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #121214;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#prompt {
+    color: #EFEFF0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+
+    border: 1px solid #29292D;
+    border-radius: 10px;
+
+    height: 40vh;
+    width: 40vw;
+    background-color: #1A1A1E;
+}
