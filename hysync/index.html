@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hysync — Hypixel Discord Sync & Player Data Tools</title>
+    <meta name="description" content="Hysync is a smart Discord bot that fetches player data from Hypixel and Minecraft to manage roles, automate guild sync, and provide fast stats commands." />
+    <meta name="keywords" content="Hypixel, Discord bot, Minecraft, Hypixel stats, guild sync, player data, SkyBlock" />
+
+    <link rel="canonical" href="https://mattyhd0.github.io/hysync/">
+
+    <!-- (Open Graph) -->
+    <meta property="og:title" content="Hysync — Hypixel Discord Sync Bot" />
+    <meta property="og:description" content="Sync your Hypixel guild ranks, player level, stats with Discord roles automatically." />
+    <meta property="og:url" content="https://mattyhd0.github.io/hysync/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <!-- <meta name="twitter:card" content="summary_large_image" /> -->
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img id="logo" alt="HySync Logo" src="img/logo.png"></img>
+    </header>
+    <div id="content">
+        <div id="main-container">
+            <div id="main-content">
+                <h1>Welcome to HySync</h1>
+                <p>Your ultimate solution for seamless synchronization Hypixel → Discord.</p>
+                <button id="main-invite-button" onclick="inviteBot()">Invite HySync!</button>
+                <button class="gray" onclick="openPatreon()">Patreon</button>
+            </div>
+            <div>
+                <img id="main-image" alt="HySync Illustration" src="img/embed.png"></img>
+            </div>
+        </div>
+        <div id="powered-container">
+            <iframe src="https://discord.com/widget?id=964912720140992572&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <div id="powered-text">
+                <h1>Powered by Skyblock Ñ</h1>
+                <p>HySync is a Discord Bot developed by <a href="https://github.com/MattyHD0" target="_blank">MattyHD0</a>, maintained by the Skyblock Ñ community and Hypixel Skyblock Guild</p>
+            </div>
+        </div>
+        <div id="card-container">
+            <div class="card">
+                <h1>Easy to use.</h1>
+                <p>HySync is designed with simplicity in mind — connect your Discord server, set your sync preferences, and let it handle the rest. It uses a clear <span class="codeblock">condition</span>: <span class="codeblock">value</span>: <span class="role-tag" style="--role-color: rgb(89, 92, 235);" data-color="#FF0000">@Role</span> system, making it easy to define exactly who gets which role without complex setups</p>
+            </div>
+            <div class="card">
+                <h1>Use example</h1>
+                <p>Let's take an example case of a Skyblock discord server, where you want players to obtain a role according to their level, the logic would be the following: <span class="codeblock">skyblock_experience</span>: <span class="codeblock">48000</span> then <span class="role-tag" style="--role-color: #F00;" data-color="#FF0000">@Skyblock Lvl 480</span></p>
+            </div>
+            <div class="card">
+                <h1>99% Uptime**</h1>
+                <p>HySync strives to maintain around 99% uptime, ensuring your roles stay synchronized as reliably as possible. Every effort is made to keep the bot running smoothly with minimal interruptions.</p>
+            </div>
+            <div class="card">
+                <h1>Active Development</h1>
+                <p>HySync is actively maintained and improved with community feedback. New features, optimizations, and quality-of-life updates are always on the way.</p>
+            </div>
+            <!-- <div class="card">
+                <h1>Privacy First</h1>
+                <p>HySync only stores the data required to keep your roles synchronized. It requests player nicknames, and securely saves UUIDs and SkyBlock profile information</p>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
