@@ -1,5 +1,5 @@
 function openPatreon(){
-    window.open("https://www.patreon.com/es-419", '_blank');
+    window.open("https://ko-fi.com/mattyhd0/tiers", '_blank');
 }
 
 function inviteBot(){
