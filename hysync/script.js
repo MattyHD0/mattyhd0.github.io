@@ -1,4 +1,4 @@
-function openPatreon(){
+function openKofi(){
     window.open("https://ko-fi.com/mattyhd0/tiers", '_blank');
 }
 
